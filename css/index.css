@@ -656,14 +656,14 @@ footer {
     font-size: 20px;
   }
   .img8 {
-    max-width: 400px;
-    max-height: 420px;
+    max-width: 380px;
+    /* max-height: 420px; */
     width: 100%;
     object-fit: cover;
   }
   .black-dot {
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 15%;
     width: 300px;
     z-index: 1;
@@ -675,13 +675,23 @@ footer {
     width: 150px;
     z-index: 1;
   }
-  .big-rec {
+  .bottom-section{
+    margin-top: 120px;
+  }
+  .rectangle-26{
     display: none;
+  }
+  .big-rec {
+    position: absolute;
+    top: 1500px;
+    left: 5%;
+    max-width: 350px;
+    width: 100%;
   }
   .rectangle23 {
     position: absolute;
     top: 68%;
-    left: 58%;
+    left: 55%;
     z-index: 1;
   }
   .img85 {
@@ -719,7 +729,7 @@ footer {
   }
   .player {
     position: absolute;
-    top: 2710px;
+    top: 2725px;
     left: 40%;
     z-index: 3;
   }
@@ -728,12 +738,12 @@ footer {
     height: 400px;
     position: absolute;
     z-index: 1;
-    top: 4040px;
+    top: 4090px;
     margin-left: 5%;
   }
   .rectangle-31 {
     position: absolute;
-    top: 4080px;
+    top: 4130px;
     left: 55%;
     width: 30%;
     height: 320px;
@@ -741,7 +751,7 @@ footer {
   }
   .rectangle-32 {
     position: absolute;
-    top: 4200px;
+    top: 4250px;
     left: 40px;
     width: 15%;
     height: 150px;
@@ -750,7 +760,7 @@ footer {
   .input-button{
     background-color: #fff;
   padding: 5px 5px;
-  margin-top: 20px;
+  margin-top: 25px;
   border-radius: 50px;
   }
   .subscribe-newsletter button {
@@ -846,6 +856,9 @@ footer {
     margin-left: 30%;
     position: relative;
   }
+  .video img{
+    width: 100%;
+  }
   .redwoman {
     width: 60px;
     height: 60px;
@@ -859,6 +872,9 @@ footer {
     left: 62%;
     width: 50px;
     /* z-index: 0; */
+  }
+  .subscribe-text p{
+    margin-right: 0;
   }
   .black-right {
     position: absolute;
@@ -923,4 +939,14 @@ footer{
   padding-bottom: 30px;
   font-size: larger;
 }
+}
+@media (max-width: 320px) {
+  .black-dot{
+    top: 60%;
+    left: 15px;
+  }
+  .rectangle23{
+    top: 550px;
+    left: 45%;
+  }
 }
